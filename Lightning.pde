@@ -9,11 +9,11 @@ void setup()
 {
   size(400,400, P3D);
   background(0, 0, 0);
-  strokeWeight(2);
+  strokeWeight(3);
 }
 void draw()
 {
-	fill(0,0,0,40);
+	fill(0,0,0,30);
 	rect(0,0,400,400);
 
 	while (endY < 400)
