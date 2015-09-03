@@ -25,11 +25,11 @@ public void setup()
 {
   size(400,400, P3D);
   background(0, 0, 0);
-  strokeWeight(2);
+  strokeWeight(4);
 }
 public void draw()
 {
-	fill(0,0,0,40);
+	fill(0,0,0,20);
 	rect(0,0,400,400);
 
 	while (endY < 400)

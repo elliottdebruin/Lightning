@@ -13,7 +13,7 @@ void setup()
 }
 void draw()
 {
-	fill(0,0,0,30);
+	fill(0,0,0,20);
 	rect(0,0,400,400);
 
 	while (endY < 400)
