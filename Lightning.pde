@@ -39,7 +39,7 @@ rotateX (mouseX * 0.03);
 rotateY (mouseY * 0.03);
 box(100, 100, 100);
 }
-void mousePressed()
+void mouseMoved()
 {
 startX = 200;
 startY = 50;
